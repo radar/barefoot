@@ -1,0 +1,45 @@
+body {
+  margin: 2rem;
+}
+
+.App {
+  justify-content: center;
+  margin-top: 20vh;
+
+  .too-rich {
+    background: #ff4949;
+    border: 2px solid darken(#ff4949, 25);
+    border-radius: 5px;
+    padding: 1vh;
+    margin-bottom: 1vh;
+    color: white;
+  }
+
+  form {
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      display: none;
+    }
+
+    input[type=number] {
+      text-align: right;
+      -moz-appearance:textfield;
+    }
+
+    .amount {
+      font-family: "Inconsolata";
+    }
+  }
+
+  .green-tick {
+    font-size: 166%;
+  }
+}
+
+.details {
+  font-size: 75%;
+
+  p {
+    color: grey;
+  }
+}
